@@ -1,4 +1,4 @@
-import os
+bhulimport os
 import telebot
 import json
 import requests
@@ -16,11 +16,11 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7044901026'
+TOKEN = '6170442028:AAFjZE4YhF1JksQXKNsOuHhxmS2ayeZhuqE'
 MONGO_URI = 'mongodb+srv://admin:kpR4ObsewTySq48I@test.zeqrmgb.mongodb.net/test_db?retryWrites=true&w=majority&appName=piro&tlsAllowInvalidCertificates=true'
-FORWARD_CHANNEL_ID = -100
-CHANNEL_ID = -100
-error_channel_id = -100
+FORWARD_CHANNEL_ID = -1002218240284
+CHANNEL_ID = -1002218240284
+error_channel_id = -1002218240284
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
