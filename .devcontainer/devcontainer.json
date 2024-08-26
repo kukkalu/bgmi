@@ -4,7 +4,7 @@
     "features": {
         "ghcr.io/devcontainers/features/sshd:1": {
             "version": "latest"
-        
+        }
     },
     "postStartCommand": "python3 /workspaces/bgmi/g.py",
     "customizations": {
