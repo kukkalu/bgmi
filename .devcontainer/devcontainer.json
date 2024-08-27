@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/bgmi/g.py",
+    "postStartCommand": "python3 /workspaces/bgmi/soul.py",
     "customizations": {
         "vscode": {
             "settings": {
